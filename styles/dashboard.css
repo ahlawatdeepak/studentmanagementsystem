@@ -1,0 +1,51 @@
+#title{
+    display: flex;
+    justify-content: space-evenly;
+    box-shadow: 0px 0px 5px skyblue;
+    margin: .5% 0% .5% 0%;
+}
+#title>div{
+    /* border: 2px red solid; */
+    width: 16%;
+    text-align: center;
+    font-size: large;
+    color: white;
+    background-color: skyblue;
+}
+#dashboardBorder{
+    /* border: 2px red solid; */
+    box-shadow: 0px 0px 10px skyblue;
+    height: 700px;
+    width: 100%;
+}
+#data>div{
+    height: 100px;
+    display: grid;
+    grid-template-areas:
+    "a b c d e f"
+    ;
+    grid-gap: 1%;
+    padding: .1% .5% .1% .5%;
+    /* grid-template-columns: 1fr 2fr 3fr 4fr 5fr ; */
+}
+#data>div>div{
+    border: 2px skyblue solid;
+    /* width: 60%; */
+
+}
+#titles{
+    width: 30%;
+    font-size: 250%;
+    text-align: center;
+    margin: auto;
+    color: skyblue;
+    text-shadow: 2px 2px 4px rgb(110, 163, 185);
+}
+
+#name{grid-area: 'a';}
+#course{grid-area: 'b';}
+#unit{grid-area: 'c';}
+#image{grid-area: 'd';}
+#batch{grid-area: 'e';}
+#delete{grid-area: 'f';}
+#pimage{width: 100px;height: 100%;}

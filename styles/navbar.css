@@ -1,0 +1,17 @@
+#navBarBorder{
+    background-color: skyblue;
+    padding: 1%;
+    margin-bottom: 10%;
+    display: flex;
+    font-size: 200%;
+    justify-content: space-around;
+    box-shadow: 0px 0px 10px skyblue;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover,#submit:hover{
+    color: gray;
+    cursor: pointer;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+
+    <!-- css links -->
+    <link rel="stylesheet" href="./styles/home.css">
+    <link rel="stylesheet" href="./styles/navbar.css">
+
+</head>
+
+<body>
+    <!-- Navbar Design -->
+    <div id="navBarBorder">
+        <div class="navButton"><a href="./home.html">Register</a></div>
+       
+        <div class="navButton"><a href="./dashboard.html">Dashboard</a></div>
+    </div>
+    <div class="navButton" id="studentcount"></div>
+    
+    <!-- SubmitForm -->
+
+    <div id="formBorder">
+        <form action="" id="form">
+            <div class="title">Registration Form</div>
+            <div class="inputBorder">
+                <div class="inputDiv">
+                    <label for="name">Name:</label>
+                <input type="text" name="Name" id="name" placeholder="Enter your name...">
+                </div>
+                <div class="inputDiv">
+                    <label for="course">Course Name:</label>
+                <input type="text" name="Course" id="course" placeholder="Enter your course name...">
+                </div>
+                <div class="inputDiv">
+                    <label for="unit">Unit:</label>
+                <input type="text" name="Unit" id="unit" placeholder="Enter your unit name...">
+                </div>
+                <div class="inputDiv">
+                    <label for="imgUrl">Image URL:</label>
+                <input type="url" name="ImgUrl" id="imgUrl" placeholder="Enter your profile image link...">
+                </div>
+                <div class="inputDiv">
+                    <label for="batch">Batch Name:</label>
+                <input type="text" name="Batch" id="batch" placeholder="Enter your batch code...">
+                </div>
+                <div class="submitDiv">
+                    <input type="submit" name="SubmitData" id="submit">
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
+
+<!-- scripts links -->
+<script src="./scripts/home.js"></script>
