@@ -33,6 +33,7 @@ database.forEach(function(el,index){
   pdelete.setAttribute("id","delete")
   pdelete.style.cursor = "pointer"
   pdelete.textContent="Delete";
+  pdelete.style.color="red";
   pdelete.addEventListener('click',function()
   {
       deleteData(index)

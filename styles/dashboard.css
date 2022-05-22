@@ -19,6 +19,8 @@
     width: 100%;
 }
 #data>div{
+    margin-top: 20px;
+    text-align: center;
     height: 100px;
     display: grid;
     grid-template-areas:
@@ -42,10 +44,10 @@
     text-shadow: 2px 2px 4px rgb(110, 163, 185);
 }
 
-#name{grid-area: 'a';}
-#course{grid-area: 'b';}
-#unit{grid-area: 'c';}
+#name{grid-area: 'a';padding-top: 20px;}
+#course{grid-area: 'b';padding-top: 20px;}
+#unit{grid-area: 'c';padding-top: 20px;}
 #image{grid-area: 'd';}
-#batch{grid-area: 'e';}
-#delete{grid-area: 'f';}
+#batch{grid-area: 'e';padding-top: 20px;}
+#delete{grid-area: 'f';padding-top: 20px;}
 #pimage{width: 100px;height: 100%;}
